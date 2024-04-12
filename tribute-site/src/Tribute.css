@@ -1,0 +1,334 @@
+.TributeToAPJAbdulKalam {
+  min-height: 100vh;
+  background-color: lavenderblush;
+ /* background-color: lightpink;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.content {
+  padding: 3rem 4rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #6366f1;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.image {
+  width: 50%;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
+.text {
+  width: 100%;
+}
+
+.text p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.early-life {
+  margin-bottom: 2.5rem;
+}
+
+.early-life h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.early-life p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+.achievements {
+  margin-bottom: 2.5rem;
+}
+
+.achievements h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.achievement-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.achievement-image {
+  width: 50%;
+  margin-right: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.achievement-item:nth-child(even) .achievement-image {
+  margin-right: 0;
+  margin-left: 2rem;
+}
+
+.achievement-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.achievement-image:hover img {
+  transform: scale(1.1);
+}
+
+.achievement-text {
+  width: 50%;
+}
+
+.achievement-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-text p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+.awards-honors {
+  margin-bottom: 2.5rem;
+}
+
+.awards-honors h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.award-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.award-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.award-image {
+  width: 50%;
+  margin-right: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.award-item.reverse .award-image {
+  margin-right: 0;
+  margin-left: 2rem;
+}
+
+.award-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.award-image:hover img {
+  transform: scale(1.1);
+}
+
+.award-text {
+  width: 50%;
+}
+
+.award-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.award-text p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+.books-publications {
+  margin-bottom: 2.5rem;
+}
+
+.books-publications h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.book-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.book-image {
+  width: 50%;
+  margin-right: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.book-item.reverse .book-image {
+  margin-right: 0;
+  margin-left: 2rem;
+}
+
+.book-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book-image:hover img {
+  transform: scale(1.1);
+}
+
+.book-text {
+  width: 50%;
+}
+
+.book-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.book-text p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+}
+
+.quotes {
+  margin-bottom: 2.5rem;
+}
+
+.quotes h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.quote {
+  background-color: #e0e7ff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4338ca;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.quote cite {
+  font-size: 1.125rem;
+  color: #6b7280;
+}
+
+.quote-container {
+  background-color: #e0e7ff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quote-container blockquote p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4338ca;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.quote-container blockquote cite {
+  font-size: 1.125rem;
+  color: #6b7280;
+}
+
+.footer {
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 1.5rem 2.5rem;
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.footer p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
